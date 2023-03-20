@@ -5,7 +5,6 @@ import { TabComponent } from './compnents/tab/tab.component';
 import { NavBarComponent } from './compnents/nav-bar/nav-bar.component';
 import { MatButtonModule } from '@angular/material/button';
 import { InfiniteScrollDirective } from './directives/infinite-scroll.directive';
-import { LoaderComponent } from './compnents/loader/loader.component';
 import { IsValuePipe } from './pipes/isValue/is-value.pipe';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
@@ -15,7 +14,6 @@ const CUSTOM_COMPONENTS = [
   TabComponent,
   NavBarComponent,
   InfiniteScrollDirective,
-  LoaderComponent,
 ];
 
 const PIPES = [
