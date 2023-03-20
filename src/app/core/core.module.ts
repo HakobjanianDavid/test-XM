@@ -1,7 +1,7 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TabComponent } from './compnents/button/tab.component';
+import { TabComponent } from './compnents/tab/tab.component';
 import { NavBarComponent } from './compnents/nav-bar/nav-bar.component';
 import { MatButtonModule } from '@angular/material/button';
 import { InfiniteScrollDirective } from './directives/infinite-scroll.directive';
