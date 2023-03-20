@@ -6,7 +6,6 @@ import { NavBarComponent } from './compnents/nav-bar/nav-bar.component';
 import { MatButtonModule } from '@angular/material/button';
 import { InfiniteScrollDirective } from './directives/infinite-scroll.directive';
 import { LoaderComponent } from './compnents/loader/loader.component';
-import { LoadingPipe } from './pipes/isLoading/loading.pipe';
 import { IsValuePipe } from './pipes/isValue/is-value.pipe';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
@@ -20,7 +19,6 @@ const CUSTOM_COMPONENTS = [
 ];
 
 const PIPES = [
-  LoadingPipe,
   IsValuePipe
 ];
 
