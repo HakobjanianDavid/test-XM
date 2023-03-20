@@ -1,0 +1,5 @@
+<div class="nav-bar main-wrapper">
+  <ng-container *ngFor="let item of schema">
+    <app-tab [link]="item.path"><span>{{ item.title }}</span></app-tab>
+  </ng-container>
+</div>

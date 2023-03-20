@@ -1,0 +1,9 @@
+<ng-container *ngIf="photos">
+  <div class="photos-container">
+    <ng-container *ngFor="let photo of photos">
+      <div class="photo" (click)="tapToPhoto(photo)">
+        <img [src]="photo.download_url" alt="" [width]="photoSize" [height]="photoSize">
+      </div>
+    </ng-container>
+  </div>
+</ng-container>

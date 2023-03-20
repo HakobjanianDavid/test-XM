@@ -1,0 +1,7 @@
+$base-color:                #171554;
+$base-color--lighter-20:      lighten($base-color, 20%);
+$base-color--opacity-05:      rgba($base-color, .05);
+$base-color--opacity-2:       rgba($base-color, .2);
+$base-color--opacity-3:       rgba($base-color, .3);
+$border:                      $base-color--lighter-20;
+$confirm-color:             #379152;

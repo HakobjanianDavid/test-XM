@@ -1,0 +1,13 @@
+<ng-container *ngIf="photos | async as data">
+  <div class="main-wrapper">
+    <app-photos
+      [photoSize]="photoHeight"
+      [photos]="data | isValue"
+      appInfiniteScroll
+      [canLoad]="!!(data | isValue)"
+      (scrolled)="downloadPhotos()"
+      (onPhotoClick)="addToFavorite($event)"
+    ></app-photos>
+    <app-loader class="centralize"></app-loader>
+  </div>
+</ng-container>

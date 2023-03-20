@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/typography.scss';
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.main-wrapper {
+  width: 75rem
+}
+
+.centralize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  height: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $border;
+  border-radius: 0.65rem;
+  background-color: $base-color--opacity-05;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $base-color--opacity-2;
+  }
+
+  &:active {
+    background-color: $base-color--opacity-3;
+  }
+
+  &--lagre {
+    height: 100%;
+    min-height: 44rem;
+    padding: 3rem 0;
+    margin: 2rem;
+
+    &:hover, &:active {
+      cursor: initial;
+      background-color: $base-color--opacity-05;
+    }
+  }
+}

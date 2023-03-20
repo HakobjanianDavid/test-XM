@@ -1,0 +1,12 @@
+<div class="main-wrapper">
+  <div class="photo photo--lagre">
+    <img [src]="src" alt="photo">
+  </div>
+</div>
+<button
+  mat-raised-button
+  color="warn"
+  [disabled]="isDisable"
+  class="remove-btn"
+  (click)="!isDisable && removeItem()"
+>Remove</button>

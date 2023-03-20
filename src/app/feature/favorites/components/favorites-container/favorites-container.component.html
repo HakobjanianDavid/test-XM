@@ -1,0 +1,7 @@
+<div class="photo-container main-wrapper">
+  <ng-container *ngFor="let item of favorites">
+    <div class="photo" [routerLink]="['/photo', item.id]">
+      <img [src]="item.download_url" alt="" height="250" width="250">
+    </div>
+  </ng-container>
+</div>

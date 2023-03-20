@@ -1,0 +1,15 @@
+@import '../../../../assets/typography.scss';
+
+:host {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  background-color: $base-color--lighter-20;
+
+  .nav-bar {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

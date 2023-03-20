@@ -1,0 +1,10 @@
+@import '../../../../../assets/typography.scss';
+
+:host {
+    display: flex;
+    justify-content: center;
+
+    app-loader {
+        margin: 2rem 0;
+    }
+}

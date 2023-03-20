@@ -1,0 +1,45 @@
+@import '../../../../../assets/typography.scss';
+
+.photos-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+
+  img {
+    animation-name: Appearance;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(.1, -.6, .2, 0);
+  }
+
+  @-webkit-keyframes Appearance {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes Appearance {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes Appearance {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
